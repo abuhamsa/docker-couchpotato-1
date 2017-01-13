@@ -7,7 +7,7 @@ mkdir -p \
 # install app
 [[ ! -d "/app/couchpotato/.git" ]] && \
 	git clone https://github.com/CouchPotato/CouchPotatoServer.git && \
-	cd /app/couchpotato && \
+	cd /app/couchpotato/CouchPotatoServer && \
   	git checkout tags/build/2.6.3 -b old_version
 
 # permissions

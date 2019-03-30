@@ -4,7 +4,7 @@
 mkdir -p \
 	/var/log/couchpotato
 
-# install app
+# install app now with apikey
 [[ ! -d "/app/couchpotato/.git" ]] && \
 	git clone https://github.com/abuhamsa/GoodOldCouchPotato.git /app/couchpotato
 
